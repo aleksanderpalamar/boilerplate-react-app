@@ -1,0 +1,38 @@
+{
+  "name": "boilerplate-react-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.6",
+    "dotenv": "^16.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "styled-components": "^5.3.6",
+    "vite-plugin-pages": "^0.28.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "typescript",
+    "styled-components",
+    "vite"
+  ],
+  "author": "Aleksander Palamar",
+  "license": "ISC",
+  "description": "This boilerplate is the pattern that I follow to develop new web application projects, using react, typescript and styled-components, if you want to contribute to the project, open an issue."
+}
